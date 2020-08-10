@@ -426,10 +426,8 @@ WindowDialog/styles/panel = null
 [node name="Menu" type="Node2D"]
 
 [node name="ItemList" type="ItemList" parent="."]
-margin_left = 2.23242
-margin_top = 1.23239
-margin_right = 1023.23
-margin_bottom = 605.232
+margin_right = 720.0
+margin_bottom = 1280.0
 theme = SubResource( 2 )
 script = ExtResource( 1 )
 __meta__ = {
@@ -437,10 +435,10 @@ __meta__ = {
 }
 
 [node name="Start Game" type="Button" parent="ItemList"]
-margin_left = 828.17
-margin_top = 210.74
-margin_right = 928.17
-margin_bottom = 310.74
+margin_left = 289.462
+margin_top = 508.662
+margin_right = 389.462
+margin_bottom = 608.662
 action_mode = 0
 text = "start"
 __meta__ = {
@@ -448,10 +446,10 @@ __meta__ = {
 }
 
 [node name="End Game" type="Button" parent="ItemList"]
-margin_left = 829.115
-margin_top = 324.759
-margin_right = 929.115
-margin_bottom = 424.759
+margin_left = 290.407
+margin_top = 622.681
+margin_right = 390.407
+margin_bottom = 722.681
 action_mode = 0
 text = "quit"
 __meta__ = {

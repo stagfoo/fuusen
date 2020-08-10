@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="base"
+config/name="fuusen"
 run/main_scene="res://gui/menu/menu.tscn"
 boot_splash/image="res://splash.png"
 boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
@@ -28,7 +28,10 @@ PlayerVars="*res://scripts/PlayerVars.gd"
 
 [display]
 
-window/size/resizable=false
+window/size/width=720
+window/size/height=1280
+window/handheld/orientation="portrait"
+window/stretch/aspect="keep_width"
 
 [input]
 
